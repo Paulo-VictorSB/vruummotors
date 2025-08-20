@@ -1,0 +1,19 @@
+.sidebar {
+    min-width: 250px;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.badge-desconto {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.fipe {
+    text-decoration: line-through;
+    color: gray;
+}
