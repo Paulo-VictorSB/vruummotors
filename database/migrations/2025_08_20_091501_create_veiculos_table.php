@@ -15,8 +15,8 @@ return new class extends Migration {
             $table->year('ano_fabricacao');
             $table->year('ano_modelo');
             $table->integer('km');
-            $table->decimal('fipe', 12, 2)->nullable();
-            $table->decimal('preco', 12, 2);
+            $table->integer('fipe')->nullable();
+            $table->integer('preco');
             $table->string('localizacao', 255);
             $table->timestamps();
         });
